@@ -1,7 +1,8 @@
 ---
 namespace-identifier: supra
 title: Supra Ecosystem
-author: Bharat Jain <supra-bharatjain>
+author: Bharat Jain (@supra-bharatjain)
+
 discussions-to: https://github.com/ChainAgnostic/namespaces/pull/192
 status: Draft
 type: Informational

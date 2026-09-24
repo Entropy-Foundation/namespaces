@@ -1,7 +1,7 @@
 ---
 namespace-identifier: supra-caip2
 title: Supra Namespace - Chains
-author: Bharat Jain <supra-bharatjain>
+author: Bharat Jain (@supra-bharatjain)
 discussions-to: https://github.com/ChainAgnostic/namespaces/pull/192
 status: Draft
 type: Standard
@@ -40,7 +40,8 @@ genesis:
 ### Resolution Method
 
 To resolve a blockchain reference for the Supra namespace, make an HTTP GET
-request to the REST RPC of a fullnode, for example:
+request to path `/rpc/v3/transactions/chain_id` on the REST RPC of any of a 
+given [Networks]' fullnodes, for example, for Mainnet:
 
 ```bash
 curl https://rpc-mainnet.supra.com/rpc/v3/transactions/chain_id
